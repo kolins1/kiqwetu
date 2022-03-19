@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.hml{
+  font-family: 'Ranchers', cursive;
+
+}
+.menu{
+  font-weight:bold;
+  cursor:pointer;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: large;
+  margin-left:500px;
+  margin-top: -80px;
+
+  
+  
+}
+.left{
+  font-weight:bold;
+  cursor:pointer;
+  margin-top: -25px;
+  margin-left: 1000px;
+  font-size: large;
+  cursor:pointer;
+ 
+  
+}
+
+
