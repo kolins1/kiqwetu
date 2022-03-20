@@ -134,6 +134,7 @@ header nav .icon i:hover{
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
+
 }
 
 .menu .box-container .box .image {
@@ -208,6 +209,14 @@ header nav .icon i:hover{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   font-weight: 400;
+
+}
+.heading{
+  text-align: center;
+  color: #07e224f5;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: xx-large;
 }
 .order form {
   max-width: 90rem;
