@@ -1,37 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b90a738b71.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>Kiqwetu-Eats</title>
 </head>
 
 <body>
-    <hearder>
-        <div class="container">
-        <div class="Home">
-            <img class="loader" src="images/loader.gif">
-            <h1 class="hml">Happy meal</h1>
+  <header>
+    <nav>
+      <img src="images/dish-4.png" class="logo">
+      <ul>
+        <a href="#">
+          <li>Home</li>
+        </a>
+        <a href="#">
+          <li>Order</li>
+        </a>
+        <a href="#">
+          <li>menu</li>
+        </a>
+        <a href="#">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+      <div class="icon">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="intro">
+        <div>
+          <h1>KiQwetu <span>Eats</span></h1>
+          <h1>Enjoy</h1>
         </div>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <img src="images/home-img-3 (1).png">
     </div>
-    <div class="brand">
-        <div class="menu">
-            <a>Home</a>
-            <a>Menu</a>
-            <a>Delivery</a>
-            <a>Contacts</a>
+   
+    <div class="social-icon">
+      <a href="#" class="fb-icon"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="twit-icon"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="yt-icon"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" class="wp-icon"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" class="lnk-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </header>
+  <section class="menu" id="menu">
+    <h3 class="sub-heading">our menu</h3>
+    <h1 class="heading">today's speciality</h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="images/ivt.jpg" alt="" />
+          <a href="#" class="fas fa-heart"></a>
         </div>
-        <div class="left">
-            <a><i class="fa fa-shopping-basket" aria-hidden="true"></i> ksh 700 </a>
-            <a><i class="fa fa-clock-o" aria-hidden="true"></i> 10:30-21:00</a>
-            <a><i class="fa fa-phone" aria-hidden="true"></i> +254711741920</a>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>small size pizza</h3>
+
+          <a href="#" class="btn">add to cart</a>
+            <span class="price">sh 800</span>
         </div>
-    </hearder>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/medium.jpeg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>medium size pizza</h3>
+
+
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">sh 1200</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/large-pizza.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Extra large pizza</h3>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">sh 1500</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="order" id="order">
+    <h3 class="sub-heading">order now</h3>
+    <h1 class="heading">free and fast</h1>
+
+    <form action="">
+      <div class="inputBox">
+        <div class="input">
+          <span>your name</span>
+          <input type="text" placeholder="enter your name" />
+        </div>
+        <div class="input">
+          <span>your number</span>
+          <input type="number" placeholder="enter your number" />
+        </div>
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>your order</span>
+          <input type="text" placeholder="enter food name" />
+        </div>
+        <div class="input">
+          <span>additional food</span>
+          <input type="test" placeholder="extra with food" />
+        </div>
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>how much</span>
+          <input type="number" placeholder="how many orders" />
+        </div>
+        <div class="input">
+          <span>date and time</span>
+          <input type="datetime-local" />
+        </div>
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>your address</span>
+          <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input">
+          <span>your message</span>
+          <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+
+      <input type="submit" value="order now" class="btn" />
+    </form>
+  </section>
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>locations</h3>
+        <a href="#">Nairobi</a>
+        <a href="#">Mombasa</a>
+        <a href="#">Nakuru</a>
+        <a href="#">Kisumu</a>
+        <a href="#">Eldoret</a>
+      </div>
+
+
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#">+245704535023</a>
+        <a href="#">+254711741920</a>
+        <a href="#">ckipkurui77@gmail.com</a>
+        <a href="#">kolinlincoln@gmail.com</a>
+        <a href="#">Nairobi ,0001</a>
+      </div>
+    </div>
+
+
+  </section>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
