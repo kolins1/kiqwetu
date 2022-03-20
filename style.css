@@ -134,6 +134,7 @@ header nav .icon i:hover{
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
+
 }
 
 .menu .box-container .box .image {
@@ -152,7 +153,7 @@ header nav .icon i:hover{
 }
 
 .menu .box-container .box .image .fa-heart {
-  position: absolute;
+  position: relative;
   top: 2.5rem;
   right: 2.5rem;
   height: 5rem;
@@ -201,7 +202,22 @@ header nav .icon i:hover{
   margin-left: 1rem;
   font-size: 2.5rem;
 }
+.sub-heading{
+  text-align: center;
+  color: #00acee;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-weight: 400;
 
+}
+.heading{
+  text-align: center;
+  color: #07e224f5;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: xx-large;
+}
 .order form {
   max-width: 90rem;
   border-radius: 0.5rem;
@@ -210,10 +226,11 @@ header nav .icon i:hover{
   background: #fff;
   padding: 1.5rem;
   margin: 0 auto;
+  color: #08d870;
 }
 
 .order form .inputBox {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -223,7 +240,7 @@ header nav .icon i:hover{
 }
 
 .order form .inputBox .input span {
-  display: block;
+  display: flex;
   padding: 0.5rem 0;
   font-size: 1.5rem;
   color: var(--light-color);
@@ -248,7 +265,7 @@ header nav .icon i:hover{
 
 .order form .inputBox .input textarea {
   height: 20rem;
-  resize: none;
+resize: both;
 }
 
 .order form .btn {
@@ -258,6 +275,7 @@ header nav .icon i:hover{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
+  color: #03858f;
 }
 
 .footer .box-container .box h3 {
@@ -282,7 +300,7 @@ header nav .icon i:hover{
   text-align: center;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
   font-size: 2rem;
-  color: var(--black);
+  color: var( --primary-color);
   padding: 0.5rem;
   padding-top: 1.5rem;
   margin-top: 1.5rem;
